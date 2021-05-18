@@ -3,9 +3,7 @@ package com.kensbunker.multithreading;
 public class Singleton {
   private static Singleton instance;
 
-  private Singleton() {
-
-  }
+  private Singleton() {}
 
   public static Singleton getInstance() {
     if (instance == null) {
@@ -13,5 +11,4 @@ public class Singleton {
     }
     return instance;
   }
-
 }
